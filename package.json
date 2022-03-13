@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-checkpoint",
+  "version": "1.0.0",
+  "description": "handle and manage your database while using Mongoose",
+  "main": "server.js",
+  "scripts": {
+   "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mongodb",  
+    "mongoose"
+  ],
+  "author": "A.MIZI",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "nodemon": "^2.0.15"
+  }
+}
